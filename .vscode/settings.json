@@ -22,10 +22,12 @@
     "files.exclude": {
         "**/docs/**":true,
         "**/.vscode/*.log":true,
+        // "**/target/**":true,
     },
     "files.watcherExclude": {
         "**/docs/**":true,
         "**/.vscode/*.log":true,
+        // "**/target/**":true,
     },
     "files.associations": {
     },
