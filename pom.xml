@@ -1,0 +1,26 @@
+<!-- https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html -->
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.ponyatov</groupId>
+    <artifactId>JL</artifactId>
+    <version>0.0.1</version>
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.9.0</version>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+    </dependencies>
+</project>
